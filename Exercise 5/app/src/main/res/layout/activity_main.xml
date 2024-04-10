@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/showMap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Show google"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/callMom"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Call mom"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/openDial"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Open dial"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/openContacts"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Open contacts list"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/sendMsg"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Send default message"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/viewPhotos"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="View gallery"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/startMusic"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="start a song"
+            android:textAlignment="center"
+            ></Button>
+        <Button
+            android:id="@+id/directMap"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="start default direction"
+            android:textAlignment="center"
+            ></Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
